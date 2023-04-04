@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="overlay\overlay.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_demo.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_draw.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_dx11.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_impl_win32.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\imgui\imgui_widgets.cpp">
+      <Filter>overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\minhook\hook.c">
+      <Filter>overlay\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\minhook\trampoline.c">
+      <Filter>overlay\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\minhook\buffer.c">
+      <Filter>overlay\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\minhook\hde\hde64.c">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\minhook\hde\hde32.c">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="util\util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memory.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game_util.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="util\math\vector.cpp">
+      <Filter>util\math</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="features\exploits\animations.cpp">
+      <Filter>features\exploits</Filter>
+    </ClCompile>
+    <ClCompile Include="features\exploits\freezelobby.cpp">
+      <Filter>features\exploits</Filter>
+    </ClCompile>
+    <ClCompile Include="features\exploits\unlock.cpp">
+      <Filter>features\exploits</Filter>
+    </ClCompile>
+    <ClCompile Include="features\combat\aimbot.cpp">
+      <Filter>features\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\combat\norecoil.cpp">
+      <Filter>features\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\combat\rapidfire.cpp">
+      <Filter>features\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\movement\noclip.cpp">
+      <Filter>features\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="features\movement\speed.cpp">
+      <Filter>features\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\fov.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\glow.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\gravity.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\noflash.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\spotted.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\thirdperson.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\cheat.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\esp.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\renderer\renderer.cpp">
+      <Filter>overlay\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals\drone.cpp">
+      <Filter>features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\input\input.cpp">
+      <Filter>overlay\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="overlay">
+      <UniqueIdentifier>{08901f83-0df9-44ef-b468-d8ec135cff7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{9780efa2-ec16-4a5f-9396-1e4f6f16cee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{222799cb-9948-43d3-9300-971301ea9402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{dfb5e2d1-b7f7-4afd-b5f0-5226115f7e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\imgui">
+      <UniqueIdentifier>{64917924-b90c-471f-b0c6-1325e047d141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\minhook">
+      <UniqueIdentifier>{86357806-8ab1-48f4-af2e-6c56404b3381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\minhook\hde">
+      <UniqueIdentifier>{b317df66-59eb-4abe-8c90-9df477e283bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{23761775-f004-45ad-953b-fdd991f25966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\math">
+      <UniqueIdentifier>{12f12087-f105-4f74-a329-eda89084d4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\exploits">
+      <UniqueIdentifier>{04f846b3-73b7-422f-8850-f29796c3196a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\combat">
+      <UniqueIdentifier>{6f11526c-d27e-43eb-9aa8-b75f63fe958c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\visuals">
+      <UniqueIdentifier>{9919ba20-4eb8-4c0a-a62a-339a23a8ee93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features\movement">
+      <UniqueIdentifier>{3f9d341f-a5fa-4755-9c24-4a79c8a4287d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\renderer">
+      <UniqueIdentifier>{916e9694-0873-421b-b0fb-2f4509bad114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay\input">
+      <UniqueIdentifier>{81865ef7-0431-4d1c-8922-2ccff5a86479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.hpp" />
+    <ClInclude Include="util\xorstr.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\overlay.hpp">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\ck.hpp">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_dx11.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_impl_win32.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imgui_internal.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imstb_rectpack.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imstb_textedit.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imstb_truetype.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\font.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\imgui\imconfig.h">
+      <Filter>overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\MinHook.h">
+      <Filter>overlay\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\trampoline.h">
+      <Filter>overlay\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\buffer.h">
+      <Filter>overlay\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\hde\hde32.h">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\hde\hde64.h">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\hde\pstdint.h">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\hde\table32.h">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\minhook\hde\table64.h">
+      <Filter>overlay\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.hpp">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp" />
+    <ClInclude Include="offsets.hpp" />
+    <ClInclude Include="game\game_util.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="util\math\math.hpp">
+      <Filter>util\math</Filter>
+    </ClInclude>
+    <ClInclude Include="util\math\vector.hpp">
+      <Filter>util\math</Filter>
+    </ClInclude>
+    <ClInclude Include="util\math\constants.hpp">
+      <Filter>util\math</Filter>
+    </ClInclude>
+    <ClInclude Include="features\exploits\exploits.hpp">
+      <Filter>features\exploits</Filter>
+    </ClInclude>
+    <ClInclude Include="features\combat\combat.hpp">
+      <Filter>features\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\movement\movement.hpp">
+      <Filter>features\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals\visuals.hpp">
+      <Filter>features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="features\cheat.hpp">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\renderer\renderer.hpp">
+      <Filter>overlay\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\input\input.hpp">
+      <Filter>overlay\input</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

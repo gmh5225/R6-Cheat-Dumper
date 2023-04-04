@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{359684b0-57bb-43dc-a882-32ce607fdf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{e1c6b718-d675-489b-a0f1-fff1c71d9773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="routines">
+      <UniqueIdentifier>{295d4efa-8d9f-465d-a913-ed8f2a9b57ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="driver.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\memory.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="util\process.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="routines\routines.cpp">
+      <Filter>routines</Filter>
+    </ClCompile>
+    <ClCompile Include="util\clean.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\memory.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.hpp" />
+    <ClInclude Include="hooks\hooks.hpp">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="util\process.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="routines\routines.hpp">
+      <Filter>routines</Filter>
+    </ClInclude>
+    <ClInclude Include="util\clean.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
